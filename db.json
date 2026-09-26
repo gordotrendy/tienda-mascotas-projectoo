@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Royal Canin Adulto 15kg",
+      "descripcion": "Alimento balanceado para perros adultos",
+      "precio": "32000",
+      "stock": 25,
+      "categoriaId": "1",
+      "nombreProducto": "Royal Canin Adulto 10kg"
+    },
+    {
+      "id": "2",
+      "nombre": "Royal Canin Adulto 15kg",
+      "descripcion": "Alimento balanceado para perros adultos",
+      "precio": "32000",
+      "stock": 23,
+      "categoriaId": "EnvyLxMqPV4",
+      "nombreProducto": "Royal Canin Adulto 10kg"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Alimentos",
+      "descripcion": "Alimentos balanceados para perros y gatos"
+    },
+    {
+      "nombre": "Medicamento",
+      "descripcion": "Trembolona",
+      "id": "EnvyLxMqPV4"
+    },
+    {
+      "nombre": "Accesorio2",
+      "descripcion": "Accesorio accesorio",
+      "id": "z3YKxWPpu8o"
+    }
+  ],
+  "ventas": [
+    {
+      "id": "1",
+      "productoId": 1,
+      "cliente": "María González",
+      "cantidad": 2,
+      "total": 64000,
+      "fecha": "2025-07-01"
+    },
+    {
+      "cliente": "ee",
+      "productoId": null,
+      "cantidad": 2,
+      "total": 4,
+      "fecha": "2026-06-26",
+      "id": "G51XQmV5Dtg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
